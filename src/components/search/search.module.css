@@ -1,0 +1,74 @@
+.SearchIconImg{
+    padding-top: 3px;
+    width: 20px;
+    height: 25px;
+    object-fit: contain;
+}
+.Search {
+    margin: 0 20px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    
+}
+.headerSearch {
+    width: 100%;
+    padding: 30px 30px 20px 30px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.SearchContainer {
+    border-radius: 30px;
+    height: 45px;
+    background: #eeeeee;
+    border: 1px solid #b0b0b0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280%;
+}
+.SearchInput {
+    padding-left: 30px;
+    flex: 1;
+    border: none;
+    background: none;
+    color: #000;
+    height: 60px;
+}
+.SearchInput:focus {
+    outline: none;
+}
+.SearchButton {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #13B861;
+    border: 1px solid #18CA5F;
+ } 
+ li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid #e6e6e6;
+ }

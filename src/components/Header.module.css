@@ -1,0 +1,183 @@
+.header {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 10px;   
+    transition: 0.4s; 
+    width: 100%;
+    top: 0; 
+    z-index: 99;
+}
+
+.headerHr {
+    margin: 0;
+    height: 0;
+    width: 100%;
+    max-width: 2000px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.headerHrShadow {
+    border:none;
+ 	width: 100%;
+	height: 40px;
+	margin-top: 0;
+	box-shadow: 0 10px 10px -10px rgb(109, 109, 109);
+    margin: -30px auto 10px; 
+  
+}
+.search {
+    margin: 0 20px;
+    max-width: 900px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}    
+
+.headerSearch {
+    width: 100%;
+    padding: 35px 30px 20px 0px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    
+}
+.MainLogo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.linkToMain{
+    /* print everything in one line */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.Logo {
+    padding: 7px;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+.Icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.HeaderUtils {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;    
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 30px;
+    overflow: hidden;
+    transition: 0.4s; 
+    width: 100%;
+    z-index: 99;
+}
+/* space between div children of HeaderUtils */
+.HeaderUtils > * {
+    margin: 0 40px;
+}
+.Menus {
+    display: flex;
+    
+}
+.Menus > a {
+    margin: 0 5px;
+}
+.Links {
+    display: flex;
+}
+.Links > a {
+    margin: 0 5px;
+    font-size: 0.8rem;
+}
+.Menus{
+    max-width: 1000px;
+}
+.Menus > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+    width: 100%;
+    /* padding: 0 95px; */
+    white-space: nowrap	;
+}
+.menuIcon{
+    width: 25%;
+    padding-right: 5px;
+}
+.Menubar {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 37px;
+    width: 100%;
+    white-space: nowrap;
+    max-width: 1000px;
+    padding: 0 32px;
+}
+.seeAllMenu{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-right: 50px;
+}
+.menubarComponents{
+    margin: 0 30px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    padding: 0 50px;
+}
+.logo{
+    width: 32%;
+    /* height: 35%; */
+    margin-left: 145%;
+}
+
+.Menubar > div:hover:before {
+    content:"";
+    position:absolute;
+    top:-16px;
+    background:red;
+    width:16px;
+    height:16px;
+    border-radius:100%;
+    left:calc(51% - 9px);
+ }
+ .Menubar > div {
+    width: fit-content;
+ }
+
+.Menus > a> img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    display: flex;
+}
+/* space berween chilren of Menus */
+.Menus > a {
+    margin: 0 1px;
+}
+/* 5th div of .Menubar */
+.Menubar > div:nth-child(5) > Link{
+    color: gray;
+    padding: none;
+}
+
+.ChatIcon{
+    width:30%;
+    margin-left: 68%;
+}

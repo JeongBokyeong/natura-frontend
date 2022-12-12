@@ -1,0 +1,217 @@
+.naturaHouseContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 105%;
+}
+
+.mainImg{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 20px;
+}
+.hrShadow{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100%;
+}
+.shorthr{
+    width:100%;
+    max-width: 550px;
+    align-self: center;
+}
+
+.naturaHouseContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+    width: 100%;
+    flex-direction: column;
+    /* padding: 0 95px; */
+    white-space: nowrap	;
+}
+.naturaHouseContent > div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: ; */
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    /* padding: 0 95px; */
+    white-space: nowrap	;
+}
+#info{
+    align-items: center;
+    width: 63%;
+    white-space: pre-wrap;
+}
+#species{
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-top: 10px;
+    letter-spacing: -0.6px;
+    margin-left: -8px;
+}
+#store{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: gray;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+.tag{
+    border-radius: 1.5rem;
+    border: 1.5px solid #ccc;
+    margin: 0.37rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    flex-shrink: 0;
+    width: fit-content;
+    letter-spacing: 1.1px;
+}
+#tags{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: -10px;
+    margin-bottom: 35px;
+}
+.chatIcon{
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    cursor: pointer;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 500px;
+    justify-content: space-between; 
+}
+#border{
+    box-shadow: 0 4px 8px 0 rgba(153, 153, 153, 0.2), 0 4px 8px 0 rgba(0,0,0,0.19);
+    border-radius: 50%;
+    align-items: center;
+
+    display: flex;
+}
+#info {
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+#warning{
+    white-space: pre-wrap;
+    font-size: 0.7rem;
+    color: #13B861;
+    margin-top: 5px;
+    margin-left: 7px;
+    width: 100%;
+    max-width: 500px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+#btnContainer{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.adoptionbtn{
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    color: white;
+    background-color: #B5B5B5;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.adoptionbtn:hover{
+    background-color: #13B861;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.productContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+.productTitle{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.productImg{
+    width: 80%;
+    /* height: 100%; */
+    object-fit: contain;
+}
+.productList{
+    width: 100%;
+    max-width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+}
+.productList > div{
+    align-items: center;
+    text-align: center;
+}
+.productSpecies{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.productspeInfo{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: gray;
+    margin-top: 2px;
+}
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin:20px 0;
+}
+.contentImg{
+    width: 100%;
+    max-width: 500px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.warningsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin:20px 0;
+}
+.warningFood, .warningLife{
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: pre-wrap;
+}
+.warningFood {
+    margin-bottom: 10px;
+}
